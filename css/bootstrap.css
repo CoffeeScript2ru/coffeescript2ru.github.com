@@ -4958,3 +4958,10 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+
+
+.hero-unit { 
+  background-image: url(../images/coffeescript.png); 
+  background-repeat: no-repeat; 
+  background-position: 420px -80px;
+}
