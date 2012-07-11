@@ -179,8 +179,12 @@
 
       <footer>
         <p>&copy; CoffeeScript2ru 2012.
+        <br />
         <script type="text/javascript">
-        document.writeln(document.lastModified); 
+          var d_els = document.lastModified.split(" ")[0].split('/');
+          var modif_date = d_els[1] + '.' + d_els[0] + '.' + d_els[2];
+          var commits_url = 'https://github.com/CoffeeScript2ru/coffeescript2ru.github.com/commits/master';
+          document.writeln('<a title="список изменений" target="_blank" class="modif_date" href="'+commits_url+'">'+modif_date+' &raquo;</a>'); 
         </script>
         </p>
       </footer>

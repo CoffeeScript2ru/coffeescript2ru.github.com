@@ -4965,3 +4965,8 @@ a.badge:hover {
   background-repeat: no-repeat; 
   background-position: 420px -80px;
 }
+
+.modif_date {
+  font-size: 11px;
+  color: #999999;
+}
