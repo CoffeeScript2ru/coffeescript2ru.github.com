@@ -50,6 +50,7 @@
                 <li><a href="#">Установка</a></li>
                 <li><a href="#">Hello World</a></li>
                 <li><a href="#">Приложения на CoffeeScript</a></li>
+                <li><a href="#">IDE</a></li>
 
               <li class="nav-header">Материалы</li>
                 <li><a href="#">Статьи</a></li>
@@ -166,9 +167,31 @@
                   <li><a href="http://spinejs.ru/">MVC библиотека SpineJS</a></li>
                   <li><a href="http://minijs.com">MiniJS - набор jQuery плагинов на CoffeeScript</a></li>
                 </ul>
-
               </p>
               <!-- <p><a class="btn" href="#">View details &raquo;</a></p> -->
+            </div><!--/span-->
+          </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span6">
+              <h2>IDE</h2>
+              <p>
+                В качестве редактора с подсветкой CoffeeScript можно использовать
+                <a href="http://www.sublimetext.com/2">Sublime Text 2</a>.
+                Статьи про настройку подсветки:
+                
+                <ul>
+                  <li><a href="http://www.sublimetext.com/forum/viewtopic.php?f=4&t=2022">Sublime Forum: CoffeeScript</a></li>
+                  <li><a href="http://soenkerohde.com/2011/11/coffeescript-with-sublime-text/">CoffeeScript with Sublime Text</a></li>
+                </ul>
+              </p>
+              <!-- <p><a class="btn" href="#">View details &raquo;</a></p> -->
+            </div><!--/span-->
+
+            <div class="span6">
+              <h2>...</h2>
+              <p>
+              ...
+              </p>
             </div><!--/span-->
           </div><!--/row-->
 
@@ -184,7 +207,7 @@
           var d_els = document.lastModified.split(" ")[0].split('/');
           var modif_date = d_els[1] + '.' + d_els[0] + '.' + d_els[2];
           var commits_url = 'https://github.com/CoffeeScript2ru/coffeescript2ru.github.com/commits/master';
-          document.writeln('<a title="список изменений" target="_blank" class="modif_date" href="'+commits_url+'">'+modif_date+' &raquo;</a>'); 
+          document.writeln('<a style="vertical-align: top" title="список изменений" target="_blank" class="modif_date" href="'+commits_url+'">'+modif_date+' &raquo;</a>'); 
         </script>
         </p>
       </footer>
